@@ -5,6 +5,7 @@
 #include <cctype> //for upper/lower
 #include <cstring> //for string compare
 #include <cmath> //for variance and stand dev
+//#include <stdlib> //for rand
 
 using namespace std;
 
@@ -282,6 +283,10 @@ outStream <<"Probability of GT: "<< gtCount/bigramCount<<endl;
 outStream <<"Probability of GG: "<< ggCount/bigramCount<<endl;
 
 //generate DNA strings
+float a = static_cast <float> (rand())/static_cast<float>(RAND_MAX);
+float b = static_cast <float> (rand( ))/static_cast<float>(RAND_MAX);
+
+int D = standDev*(sqrt(-2*log(a)) * acos(2*M_PI*b)) + stringMean;
 
 
 //close in and out files
