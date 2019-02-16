@@ -5,6 +5,8 @@ CPSC 350-02
 
 Assumes valid lines have an even number of nucleotides
 
+Issues: Couldn't find a way to generate DNA strings without using character arrays
+
 References:
 textbook Absolute C++
 http://www.cplusplus.com/reference/string/string/operator[]/
@@ -19,3 +21,4 @@ https://stackoverflow.com/questions/21589353/cannot-convert-stdbasic-stringchar-
 http://www.cplusplus.com/forum/beginner/149957/
 https://stackoverflow.com/questions/16393583/how-to-read-same-file-twice-in-a-row
 https://www.programiz.com/cpp-programming/library-function/cmath
+http://www.cplusplus.com/doc/oldtutorial/files/
