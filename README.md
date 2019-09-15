@@ -1,11 +1,11 @@
 # Assignment1-DNA
 Dana Davidson
 ID:2299509
-CPSC 350-02
+CPSC 350-03
 
-Assumes valid lines have an even number of nucleotides
+Assumes valid lines have an even number of nucleotides, skips line with characters other than a, c, t or g.
 
-Issues: Couldn't find a way to generate DNA strings without using character arrays
+Issues: File input must be in the same folder as main.cpp
 
 References:
 textbook Absolute C++
@@ -22,3 +22,5 @@ http://www.cplusplus.com/forum/beginner/149957/
 https://stackoverflow.com/questions/16393583/how-to-read-same-file-twice-in-a-row
 https://www.programiz.com/cpp-programming/library-function/cmath
 http://www.cplusplus.com/doc/oldtutorial/files/
+https://stackoverflow.com/questions/686353/random-float-number-generation
+https://stackoverflow.com/questions/6286276/conversion-from-radians-to-degrees
